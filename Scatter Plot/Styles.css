@@ -1,0 +1,30 @@
+body {
+  background-color: #6b9;
+}
+
+.graph {
+  background-color: white;
+  display: block;
+  margin:auto;
+  margin-top: 2em;
+}
+
+.tooltip {	
+    position: absolute;			
+			
+    padding: 10px;				
+    font: 12px sans-serif;		
+    background: #bcd;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.dot {
+  opacity: .8;
+  stroke: grey;
+}
+
+.label {
+  color: red;
+}
