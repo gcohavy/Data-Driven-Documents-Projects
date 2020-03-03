@@ -1,0 +1,25 @@
+#graph {
+  background-color: #efe0d4;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  border: 1px solid black;
+}
+
+#title {
+  font-size: 2em;
+}
+
+section {
+  margin: auto;
+  overflow: visible;
+  text-align: center;
+}
+#tooltip {	
+    position: absolute;			
+    text-align: center;						
+    padding: 5px;	
+    background: lightsteelblue;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
