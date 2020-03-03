@@ -1,0 +1,38 @@
+:root {
+  --colorset: #324447;
+}
+
+body {
+  background-color: var(--colorset);
+  color: var(--colorset);
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: #EED;
+  width: 900px;
+  height: 500px;
+  padding: 25px;
+  outline: 5px solid black;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  background: var(--colorset);
+  color: #EEF;
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px;
+  pointer-events: none;
+}
